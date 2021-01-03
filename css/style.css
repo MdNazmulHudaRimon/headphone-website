@@ -1,0 +1,217 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+header{
+	background-image: url(../images/malte-wingen-381988-1920x1280.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: all;
+}
+.navbar{
+	width: 1100px;
+	margin: auto;
+	padding-top: 20px;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap
+}
+.logo{
+	flex-basis: 20%;
+}
+.a{
+	text-align: center;
+}
+nav{
+	flex-basis: 80%;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul li{
+	list-style-type: none;
+	padding: 0px;
+	margin-right: 25px;
+}
+nav ul li a{
+	text-decoration: none;
+	font size:15px;
+	color: #232323;
+	padding: 10px 15px;
+	text-transform: capitalize;
+	border:2px solid #fff0;
+	border-radius: 30px;
+}
+nav ul li a:hover{
+	border: 1px solid #232323;
+}
+.header-content{
+	padding: 180px;
+	background-image:none;
+	position: relative;
+	background-size: auto;
+	background-attachment: scroll;
+	padding-left: 45px;
+	margin-left: 25px;
+}
+.header-content h3{
+	font-size: 15px;
+	color: #232323;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.header-content h1{
+	color: #232323;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.header-content button{
+	color: #232323;
+	padding: 0.8rem 2rem;
+	font-weight: 600;
+	border:2px solid transparent;
+	border-radius: 30px;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: all 0.3s ease
+	margin-top:10px;
+}
+.first_section{
+	width: 1100px;
+	margin: auto;
+	margin-top: 70px;
+}
+.first_section h1{
+	text-align: center;
+	font-size: 35px;
+	color: #232323;
+}
+.c{
+	width: 15%;
+	color: #000;
+	margin: auto;
+	margin-top: 10px;
+
+}
+.d{
+	width: 10%;
+	margin: auto;
+	margin-top: 5px;
+}
+.section{
+	display: flex;
+}
+.section1{
+	width: 33.33%;
+	padding: 20px;
+	margin: 10px;
+}
+.section1 img{
+	width: 307px;
+}
+.section_content{
+	background: #FAC769;
+	margin-top: -5px;
+	padding: 15px;
+}
+.section_content p{
+	color: #fff;
+	font-size: 15px;
+	margin: 10px;
+}
+.section_content h2{
+	font-size: 20px;
+	margin: 10px;
+}
+.second_section{
+	width: 1100px;
+	margin: auto;
+	margin-top: 70px;
+}
+.second_section h1{
+	text-align: center;
+	font-size: 35px;
+	color: #232323;
+}
+.section2{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-auto-flow: dense;
+	padding: 1rem;
+	margin-top: 25px;
+}
+.section2 img{
+	width: 250px;
+}
+.third_section{
+	width: 1100px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.third_section h1{
+	text-align: center;
+	color: #232323;
+	font-size: 30px;
+}
+.section_3{
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+.section3{
+	margin:10px;
+}
+.section3 h2{
+	font-size: 50px;
+	color: #FAC769;
+}
+.section3 h3{
+	margin-top:-42px;
+	margin-bottom: 25px;
+}
+.section3 p{
+	color: #29202096;
+}
+.section3 a{
+	color: #FAC769;
+}
+footer{
+	background: #000;
+}
+.mainfooter{
+	
+	padding: 50px;
+	display: flex;
+	width: 1100px;
+	margin: auto;
+}
+.section4{
+	width: 33.33%;
+}
+.e{
+	padding-left: 70px; 
+}
+.f{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.section4 h3{
+	color: #FAC769;
+	margin-bottom: 10px;
+} 
+.section4 p{
+	color:#fafafa;
+}
+.section4 ul{
+	color: #fafafa;
+
+}
